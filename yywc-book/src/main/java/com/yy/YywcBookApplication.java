@@ -8,7 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * @Author: 秋有鱼
- * @Date: 2023/6/21 10:04
+ * @Date: 2023/6/21 22:47
  */
 
 @EnableDiscoveryClient
