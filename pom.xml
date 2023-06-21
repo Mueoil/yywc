@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.yy.yywc</groupId>
+    <artifactId>yywc</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>有鱼文创</name>
+    <description>有鱼文创</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>yywc-auth</module>
+        <module>yywc-book</module>
+        <module>yywc-order</module>
+        <module>yywc-inventory</module>
+        <module>yywc-notification</module>
+        <module>yywc-search</module>
+        <module>yywc-recommendation</module>
+        <module>yywc-report-service</module>
+        <module>yywc-common</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+</project>
